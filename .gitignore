@@ -1,0 +1,79 @@
+# Mac OS X
+*.DS_Store
+
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Generated files
+# .a is not ignored, so that I can use prebuilt libraries in projects.
+*.o
+*.pyc
+*.hi
+
+# Haskell
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+#.dyn_o
+#.dyn_hi
+.virthualenv
+.hpc
+.hsenc
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+#.hp
+
+# Ruby
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
+# AppCode
+.idea
+
+#Python
+*.pyc
+MANIFEST
+dist/
+/build/*
+
+# Backup files
+*~.nib
+\#*#
+.#*
+*.swp
+*.un~
+
+# Carthage
+#
+Carthage/Checkouts
+Carthage/Build
